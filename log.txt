@@ -1,25 +1,27 @@
-2025-09-27 03:55:23 UTC
+2025-09-27 04:07:43 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.14s
-Loading error handling took 0.06s
-Loading script took 0.23s
-Loading save slot metadata took 0.06s
+Early init took 0.21s
+Loading error handling took 0.23s
+Loading script took 5.57s
+Loading save slot metadata took 0.21s
 Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.03s
+ - Init at renpy/common/00updater.rpy:23 took 0.35743 s.
+ - Init at game/gui.rpy:11 took 0.54166 s.
+Running init code took 1.21s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
-Dump and make backups took 0.10s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.07s
+Initial gc took 0.08s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
+Creating interface object took 0.01s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
@@ -30,7 +32,7 @@ Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 0.94s
+Interface start took 1.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1200)
@@ -40,16 +42,14 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) UHD Graphics'
 Version: b'4.6.0 - Build 32.0.101.6790'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1818, 1023) drawable=(1818, 1023)
-Could not open 'cache/shaders.txt':
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1111) drawable=(1920, 1111)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1111) drawable=(1920, 1111)
-Could not open 'cache/shaders.txt':
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.01s
-Load screen analysis took 0.03s
+Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
