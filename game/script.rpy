@@ -4,7 +4,6 @@
 # name of the character.
 
 define p = Character("Player")
-define n = Character("NPC")
 
 
 # The game starts here.
@@ -25,9 +24,9 @@ label start:
 
     # These display lines of dialogue.
 
-    e "Hello there!"
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    "The room is silent. The sun gently sets as it's rediant rays paint the room in a gentle gold."
+    "Although it's warmth envelopes you and brings comfort, that feeling soon subsides as the rays hit your eyes."
+    "You wince--as the gentle rays now suddenly dramatic--stun your eyes."
 
     # This ends the game.
 
