@@ -3,7 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define p = Character("Player")
+define n = Character("NPC")
 
 
 # The game starts here.
@@ -24,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    e "Will this work?"
+    e "Hello there!"
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
