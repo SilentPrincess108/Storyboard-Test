@@ -44,9 +44,17 @@ label start:
         zoom 0.7
         xalign 0.5
 
-    a "Hey [name], are you ok?"
+    a "Hey [name], didn't expect see you here this late."
+    a "Dozed off in class, did we?"
 
-    p "This is Alice. We've been friends"
+    p "Eh..."
+
+    "is all that comes out of my mouth."
+    "Still in a sleepy daze, I take a couple of seconds to recall what had happened this afternoon."
+    "Walked out of class, ate lunch, walked to class."
+    "That's all I could remember."
+
+    a "Man, you're such a slacker [name]."
 
     # This ends the game.
 
