@@ -1,24 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 28, in script
-    e "Hello there!"
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 6, in script
+    define a = Character("Alice", "#FFD1DC")
+  File "game/script.rpy", line 6, in <module>
+    define a = Character("Alice", "#FFD1DC")
+TypeError: 'kind' is an invalid keyword argument for str()
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 28, in script
-    e "Hello there!"
-  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
-    Say.execute(self)
-  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 6, in script
+    define a = Character("Alice", "#FFD1DC")
+  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\ast.py", line 2248, in execute
+    self.set()
+  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\ast.py", line 2262, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 6, in <module>
+    define a = Character("Alice", "#FFD1DC")
+  File "C:\Users\rsyal9144\AppData\Local\Microsoft\WinGet\Packages\RenPy.RenPySDK_Microsoft.Winget.Source_8wekyb3d8bbwe\renpy-8.3.7-sdk\renpy\character.py", line 1794, in Character
+    return type(kind)(name, kind=kind, **properties)
+TypeError: 'kind' is an invalid keyword argument for str()
 
 Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 Test Project 1.0
-Sun Sep 28 01:49:48 2025
+Sun Sep 28 02:37:15 2025
