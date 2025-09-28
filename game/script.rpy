@@ -26,7 +26,8 @@ label start:
 
     "The room is silent. The sun gently sets as it's rediant rays paint the room in a gentle gold."
     "Although it's warmth envelopes you and brings comfort, that feeling soon subsides as the rays hit your eyes."
-    "You wince--as the gentle rays now suddenly dramatic--stun your eyes."
+    "Wincing, you let out a long yawn, throwing your back against your chair."
+    "A series of cracks echoes throughout the classroom and you sigh in relief, slumping in your chair."
 
     # This ends the game.
 
